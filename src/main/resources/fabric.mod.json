@@ -19,20 +19,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "ru.DmN.nvglass.Main"
+    ],
+    "client": [
+      "ru.DmN.nvglass.Main"
     ]
   },
   "mixins": [
     "modid.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.14.6",
-    "fabric": "*",
-    "minecraft": "~1.19",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+  ]
 }
